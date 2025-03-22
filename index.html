@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HLS Enterprise - Empowering Your Business</title>
+    <title>HLS Enterprise - Elevating Safety Standards</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -15,25 +20,29 @@
     <nav class="navbar">
       <div class="container">
         <div class="logo">
-          <img src="logo.jpg" alt="HLS Enterprise Logo" />
+          <img src="logo.jpg" alt="HLS Enterprise Logo" class="logo-img" />
         </div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="home" class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1>Empowering Your Business with Innovative Solutions!</h1>
+          <h1>Elevating Safety Standards with HLS Enterprise</h1>
           <p>
-            From IT solutions to business operations, we streamline success for
-            companies of all sizes.
+            Providing comprehensive training, consultancy, and services to
+            ensure health and safety in various environments.
           </p>
-          <a href="#contact" class="cta-button">Get a Free Consultation</a>
+          <button onclick="location.href='#contact-form'" class="cta-button">
+            Get in Touch
+          </button>
         </div>
         <div class="hero-image">
           <img
@@ -45,22 +54,32 @@
     </section>
 
     <!-- About Section -->
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <h2>About HLS Enterprise</h2>
         <div class="about-content">
           <div class="about-text">
             <p>
-              HLS Enterprise is a technology-driven business solutions company
-              dedicated to providing IT services, operational support, and
-              strategic consulting to help businesses thrive in a digital world.
+              HLS Enterprise aims to elevate safety standards by providing
+              comprehensive training and consultancy services to ensure health
+              and safety in various environments. We offer unique, hands-on
+              training on chemical usage, emergency response, and building
+              management to foster safe and sacred spaces. We also provide
+              post-construction cleaning, decoration, and event planning
+              services.
+            </p>
+            <p>
+              Our mission is to ensure safe, secure, and aesthetically pleasing
+              environments for all gatherings. We offer specialized training,
+              consulting services, and a range of post-construction and
+              event-related services.
             </p>
           </div>
           <div class="core-values">
             <h3>Our Core Values</h3>
             <ul>
-              <li>Reliability</li>
-              <li>Innovation</li>
+              <li>Safety First</li>
+              <li>Professionalism</li>
               <li>Customer Satisfaction</li>
             </ul>
           </div>
@@ -69,120 +88,135 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services">
+    <section id="services" class="services">
       <div class="container">
         <h2>Our Services</h2>
         <div class="service-grid">
           <div class="service-item">
-            <i class="fas fa-network-wired"></i>
-            <h3>IT & Tech Solutions</h3>
-            <p>Network setup & maintenance, cybersecurity, cloud services.</p>
+            <i class="fas fa-handshake"></i>
+            <h3>Collaboration with Property Managers</h3>
+            <p>
+              Providing specialized training for government agencies, private
+              companies, building managers, church leaders, and institutions’
+              cleaning committees to maintain high safety standards in meeting
+              venues and event spaces.
+            </p>
           </div>
           <div class="service-item">
-            <i class="fas fa-cogs"></i>
-            <h3>Business Operations Support</h3>
-            <p>Workflow optimization, digital transformation consulting.</p>
+            <i class="fas fa-flask"></i>
+            <h3>Training on Chemical Products</h3>
+            <p>
+              Educating on the correct usage, mixing, and storage of chemical
+              products, including the importance of using gloves and masks.
+            </p>
           </div>
           <div class="service-item">
-            <i class="fas fa-bullhorn"></i>
-            <h3>Marketing & Branding</h3>
-            <p>Website design, SEO, social media management.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-us">
-      <div class="container">
-        <h2>Why Choose Us?</h2>
-        <div class="grid">
-          <div class="grid-item">
-            <h3>Experienced Professionals</h3>
-            <p>Decades of expertise in IT and operations.</p>
-          </div>
-          <div class="grid-item">
-            <h3>Tailored Solutions</h3>
-            <p>Custom strategies for different business needs.</p>
-          </div>
-          <div class="grid-item">
-            <h3>Reliable Support</h3>
-            <p>24/7 customer service & technical support.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-      <div class="container">
-        <h2>What Our Clients Say</h2>
-        <div class="testimonial-grid">
-          <div class="testimonial-item">
+            <i class="fas fa-store"></i>
+            <h3>Recommendations & Sales of Cleaning Products</h3>
             <p>
-              "HLS Enterprise transformed our IT infrastructure, making our
-              operations smoother and more secure!"
+              Advising and supplying high-quality cleaning products to ensure
+              cleanliness and safety.
             </p>
-            <p><strong>– John D., CEO of XYZ Corp.</strong></p>
           </div>
-          <div class="testimonial-item">
+          <div class="service-item">
+            <i class="fas fa-medkit"></i>
+            <h3>Health and Safety Training</h3>
             <p>
-              "Their team is professional, responsive, and truly understands our
-              business needs."
+              Conducting comprehensive training sessions during activities in
+              public or private institutions or any other events that bring
+              together large groups of people.
             </p>
-            <p><strong>– Sarah L., Marketing Director</strong></p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Decoration Services</h3>
+            <p>
+              Providing decoration services to create aesthetically pleasing
+              environments for various events and occasions.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-broom"></i>
+            <h3>Post-Construction Cleaning</h3>
+            <p>
+              Offering thorough cleaning services after construction projects to
+              ensure spaces are ready for use.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-calendar-check"></i>
+            <h3>Event Planning</h3>
+            <p>
+              Coordinating all aspects of event planning, from initial concept
+              to execution, ensuring every detail is handled professionally.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form">
       <div class="container">
-        <h2>Ready to Grow Your Business?</h2>
-        <div class="cta-buttons">
-          <a href="#contact" class="cta-button">Get a Free Quote</a>
-          <a href="#contact" class="cta-button">Schedule a Call</a>
-          <a href="#contact" class="cta-button">Contact Us Today</a>
-        </div>
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
       </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
-        <p>
-          Email:
-          <a href="mailto:info@hlsenterprise.com">info@hlsenterprise.com</a>
-        </p>
-        <p>Location: 123 Business St, City, Country</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer>
       <div class="container">
-        <div class="footer-links">
-          <a href="#services">Services</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            <p>
+              Email:
+              <a href="mailto:info@hlsenterprise.com">info@hlsenterprise.com</a>
+            </p>
+            <p>Location: 123 Business St, City, Country</p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
         </div>
-        <p>© 2025 HLS Enterprise. All Rights Reserved.</p>
+        <div class="footer-bottom">
+          <p>© 2025 HLS Enterprise. All Rights Reserved.</p>
+        </div>
       </div>
     </footer>
-
     <!-- Live Chat Widget -->
     <div class="chat-widget">
       <i class="fas fa-comments"></i>
     </div>
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
